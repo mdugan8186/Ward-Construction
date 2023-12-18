@@ -162,6 +162,10 @@ main {
 }
 
 @media only screen and (max-width: 650px) {
+  .services-box {
+    margin: 2.5rem 0 1rem;
+  }
+
   .serv-top h2 {
     font-size: 2.5rem;
   }
@@ -234,8 +238,13 @@ main {
 }
 
 @media only screen and (max-width: 650px) {
+  .gallery-box {
+    margin-top: 2.5rem;
+  }
+
   .gallery-top h2 {
     font-size: 2.5rem;
+    margin: 1rem auto;
   }
 
   .gallery-card {
