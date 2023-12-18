@@ -117,6 +117,12 @@ main {
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .banner-box h1 {
+    font-size: 2.75rem;
+  }
+}
+
 /* ////////////////////////////////////// */
 /* ==== SERVICES ==== */
 .services-box {
@@ -162,6 +168,16 @@ main {
 
   .serv-bottom li {
     font-size: 1.75rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .serv-top h2 {
+    font-size: 2rem;
+  }
+
+  .serv-bottom li {
+    font-size: 1.25rem;
   }
 }
 
@@ -228,6 +244,13 @@ main {
 
   .gallery-button button {
     font-size: 1.5rem;
+    padding: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .gallery-top h2 {
+    font-size: 2rem;
   }
 }
 
@@ -286,6 +309,41 @@ main {
 
 @media only screen and (max-width: 650px) {
   .contact-top {
-    font-size: 1.875rem;
+    font-size: 1.75rem;
+  }
+
+  .contact-middle {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-left {
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact-top {
+    font-size: 1.5rem;
+  }
+
+  .contact-middle h3 {
+    font-size: 1.25rem;
+  }
+
+  .contact-middle p {
+    font-size: 1rem;
+  }
+
+  .contact-bottom .email {
+    font-size: 1.25rem;
+  }
+
+  .contact-bottom .address {
+    font-size: 1rem;
+  }
+
+  .contact-bottom .license {
+    font-size: 1rem;
   }
 }
