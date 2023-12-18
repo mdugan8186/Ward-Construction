@@ -112,6 +112,10 @@ main {
 }
 
 @media only screen and (max-width: 650px) {
+  .banner-box {
+    justify-content: space-around;
+  }
+
   .banner-box h1 {
     font-size: 3.125rem;
   }
