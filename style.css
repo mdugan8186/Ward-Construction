@@ -279,6 +279,20 @@ main {
   text-align: center;
 }
 
+.contact-bio {
+  width: 80%;
+  text-align: center;
+  margin: 0.625rem auto;
+}
+
+.contact-bio h3 {
+  font-size: 2rem;
+}
+
+.contact-bio p {
+  font-size: 1.75rem;
+}
+
 .contact-middle {
   width: 60%;
   display: flex;
@@ -338,6 +352,14 @@ main {
 @media only screen and (max-width: 400px) {
   .contact-top {
     font-size: 1.5rem;
+  }
+
+  .contact-bio h3 {
+    font-size: 1.5rem;
+  }
+
+  .contact-bio p {
+    font-size: 1.25rem;
   }
 
   .contact-middle h3 {
