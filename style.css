@@ -297,7 +297,7 @@ main {
 .contact-middle {
   width: 60%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin: 1.25rem auto;
 }
 
@@ -332,7 +332,11 @@ main {
 .contact-bottom .license {
   font-size: 2rem;
   font-weight: bold;
-  margin: 1.25rem 0 2.5rem;
+  margin: 1.25rem 2.5rem;
+}
+
+.contact-bottom .bbb {
+  margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 650px) {
@@ -345,7 +349,7 @@ main {
     align-items: center;
   }
 
-  .contact-left {
+  .contact-owner {
     margin-bottom: 1rem;
   }
 }
